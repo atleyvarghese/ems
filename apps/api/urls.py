@@ -6,7 +6,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 from apps.tasks.views import TaskViewSet
 
 router = routers.DefaultRouter()
-router.register(r'^tasks', TaskViewSet)
+router.register(r'^tasks', TaskViewSet, basename='manage-tasks')
 
 urlpatterns = [
 

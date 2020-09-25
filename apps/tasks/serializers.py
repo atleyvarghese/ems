@@ -8,7 +8,7 @@ class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
         fields = ('name', 'description', 'review', 'is_reviewed', 'estimated_time', 'actual_time',
-                  'completed_on')
+                  'started_on', 'completed_on')
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
