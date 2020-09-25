@@ -1,0 +1,16 @@
+Django==2.2.16
+djangorestframework==3.11.1
+
+# DB
+psycopg2-binary==2.8.5
+
+# celery
+celery==4.4.7
+django-celery-beat==2.0.0
+
+# Workbook
+openpyxl==3.0.5
+
+# Utils
+django-import-export==2.3.0
+redis==3.5.3
