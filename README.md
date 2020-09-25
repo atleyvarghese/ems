@@ -14,6 +14,7 @@ $ virtualenv -p python3 venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 $ source env/local.env
+$ python manage.py migrate
 ```
 
 Redis is used as the celery broker, you can get how to install redis [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04)
