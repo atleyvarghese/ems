@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'django_celery_beat',
     'import_export',
+    'django_filters',
 
     'apps.tasks',
 ]

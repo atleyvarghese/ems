@@ -9,8 +9,9 @@ celery==4.4.7
 django-celery-beat==2.0.0
 
 # Workbook
-openpyxl==3.0.5
+openpyxl==2.6.4
 
 # Utils
 django-import-export==2.3.0
 redis==3.5.3
+django-filter==2.3.0

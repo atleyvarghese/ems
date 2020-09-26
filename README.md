@@ -18,7 +18,7 @@ $ python manage.py migrate
 ```
 
 Redis is used as the celery broker, you can get how to install redis [here](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04)
-
+The Sample data has a cron scheduled for 1 am(UTC) on every Monday
 To run the celery worker use the following command:
 
     $ celery -A ems worker -l info
